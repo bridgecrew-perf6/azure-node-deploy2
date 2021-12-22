@@ -24,7 +24,7 @@ runcmd:
   - 'sudo apt-get install -y nodejs'
   # clone GitHub Repo into myapp directory
   - 'cd /home/azureuser'
-  - git clone "https://github.com/Azure-Samples/js-e2e-vm" myapp
+  - git clone "https://github.com/msolorio/azure-node-deploy2" myapp
   # Start app
   - 'cd myapp && npm install && npm start'
   # restart NGINX
